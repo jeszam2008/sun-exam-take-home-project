@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "username": "jeszam2008",
+      "id": 1
+    },
+    {
+      "username": "jianak2009",
+      "id": 2
+    },
+    {
+      "username": "sasa",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Angular is my favorite framework.",
+      "user_id": "jianak2009",
+      "articleId": "1",
+      "dateCreated": "2023-11-17T11:26:31.518Z",
+      "id": 1
+    },
+    {
+      "comment": "Yes, Angular is more robust and more secure than other framework",
+      "user_id": "jeszam2008",
+      "articleId": "1",
+      "dateCreated": "2023-11-17T11:27:08.538Z",
+      "id": 2
+    },
+    {
+      "comment": "They offer several amazing benefits but React works better than Angular. Moreover, a huge development community supports React JS. Since React consists of Virtual DOM and renders optimizations, it surpasses Angular in the battle of comparison.",
+      "user_id": "jeszam2008",
+      "articleId": "1",
+      "dateCreated": "2023-11-17T11:27:46.738Z",
+      "id": 3
+    },
+    {
+      "comment": "Such an underrated frameowork.",
+      "user_id": "jeszam2008",
+      "articleId": "4",
+      "dateCreated": "2023-11-17T11:29:23.425Z",
+      "id": 4
+    },
+    {
+      "comment": "If I choose NodeJS and .NET framework, I say NodeJS is good and easy runtime environment.",
+      "user_id": "sasa",
+      "articleId": "5",
+      "dateCreated": "2023-11-17T11:31:37.209Z",
+      "id": 5
+    },
+    {
+      "comment": "Hahaha @jeszam2008 you're so silly.",
+      "user_id": "sasa",
+      "articleId": "1",
+      "dateCreated": "2023-11-17T11:32:23.455Z",
+      "id": 6
+    },
+    {
+      "comment": "Owh, the overrated framework. I wonder why it always re-rendered compared to other frameworks like Angular or Vue",
+      "user_id": "jianak2009",
+      "articleId": "2",
+      "dateCreated": "2023-11-17T11:33:39.152Z",
+      "id": 7
+    },
+    {
+      "comment": "Vue is like combination of Angular + React. ",
+      "user_id": "jianak2009",
+      "articleId": "3",
+      "dateCreated": "2023-11-17T11:34:37.439Z",
+      "id": 8
+    },
+    {
+      "comment": "Sorry, I was my words are mixing up. But still Angular for me.",
+      "user_id": "jeszam2008",
+      "articleId": "1",
+      "dateCreated": "2023-11-17T11:35:29.413Z",
+      "id": 9
+    }
+  ],
+  "articles": [
+    {
+      "title": "Angular",
+      "content": "Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.",
+      "user_id": "sasa",
+      "dateCreated": "2023-11-17T11:23:41.523Z",
+      "id": 1
+    },
+    {
+      "title": "React",
+      "content": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.",
+      "user_id": "sasa",
+      "dateCreated": "2023-11-17T11:25:46.266Z",
+      "id": 2
+    },
+    {
+      "title": "Vue.js",
+      "content": "Vue.js is an open-source model–view–view model front end JavaScript library for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.",
+      "user_id": "jeszam2008",
+      "dateCreated": "2023-11-17T11:28:37.865Z",
+      "id": 3
+    },
+    {
+      "title": "Svelte",
+      "content": "Svelte is a free and open-source front-end component framework and language created by Rich Harris and maintained by the Svelte core team members.",
+      "user_id": "jeszam2008",
+      "dateCreated": "2023-11-17T11:29:03.257Z",
+      "id": 4
+    },
+    {
+      "title": "Node.js",
+      "content": "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.",
+      "user_id": "jianak2009",
+      "dateCreated": "2023-11-17T11:30:02.961Z",
+      "id": 5
+    },
+    {
+      "title": "Laravel",
+      "content": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.\n\nLaravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience.\n\nBuild robust, full-stack applications in PHP using Laravel and Livewire. Love JavaScript? Build a monolithic React or Vue driven frontend by pairing Laravel with Inertia.\n\nOr, let Laravel serve as a robust backend API for your Next.js application, mobile application, or other frontend. Either way, our starter kits will have you productive in minutes.\n\n\nOut of the box, Laravel has elegant solutions for the common features needed by all modern web applications. It's time to start building amazing applications and stop wasting time searching for packages and reinventing the wheel.\n\nLaravel is committed to delivering the best testing experience you can imagine. No more brittle tests that are a nightmare to maintain. Beautiful testing APIs, database seeding, and painless browser testing let you ship with confidence.\n\nLaravel is for everyone — whether you have been programming for 20 years or 20 minutes. It's for architecture astronauts and weekend hackers. For those with degrees and for those who dropped out to chase their dreams. Together, we create amazing things.",
+      "user_id": "jianak2009",
+      "dateCreated": "2023-11-17T11:38:01.461Z",
+      "id": 6
+    }
+  ]
+}
