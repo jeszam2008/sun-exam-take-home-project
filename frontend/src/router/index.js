@@ -10,18 +10,28 @@ const routes = [
     name: 'article',
     component: () => import('../views/article/Article.vue'),
     children: [
-      { path: '', component: () => import('../views/article/ArticleList.vue') },
-      { path: 'details', component: () => import('../views/article/ArticleDetails.vue') },
+      { path: '', name: 'article-list', component: () => import('../views/article/ArticleList.vue') },
+      { path: 'add', name: "add-article", component: () => import('../views/article/AddArticle.vue') },
+      { path: 'details/:id', name: "article-details", component: () => import('../views/article/ArticleDetails.vue') },
     ]
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: () => import('../components/NotFound.vue')
   },
   {
     path: '/',
     redirect: '/article'
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/404'
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
